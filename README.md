@@ -66,11 +66,12 @@ This is a **mobile-first micro SaaS** tool designed for **worldbuilders, writers
   - Add Google Services JSON to `/android/app` (for Android) and `/ios/Runner` (for iOS)
 
 ## 📌 Roadmap
-- [ ] **Week 1:** Base Project setup and Core UI
-- [ ] **Week 2:** Build Character & Worldbuilding UI
-- [ ] **Week 3:** Local Storage (SQLite integration)
-- [ ] **Week 4:** Display & Manage Data
-- [ ] **Week 5:** Polish & Prep for Public Launch
+- [x] **Week 1:** Base Project setup and Core UI
+- [ ] **Week 2:** Build Login Validation Functionality/Authentication 
+- [ ] **Week 3:** Build Character & Worldbuilding UI
+- [ ] **Week 4:** Local Storage (SQLite integration)
+- [ ] **Week 5:** Display & Manage Data
+- [ ] **Week 6:** Polish & Prep for Public Launch
 
 ## 🤝 Contributing
 This is ideally a **solo built project**, but support & contributions are welcome! If you’d like to help:
