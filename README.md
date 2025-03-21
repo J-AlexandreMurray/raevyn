@@ -59,72 +59,59 @@ Raevyn is a **mobile-first worldbuilding application** **tool **designed for wri
    adb install bin/*.apk
    ```
 
-Roadmap
+Here's a visually appealing version of your roadmap for the **Raevyn** Worldbuilding App ReadMe:  
 
-Phase 1: MVP Development (Weeks 1-5)
+---
 
-Week 1: Environment Setup & Basic UI
+## 📌 Roadmap  
 
-Set up project repository
+### 🚀 **Phase 1: MVP Development (Weeks 1-5)**  
 
-Configure Termux / Pydroid3 for mobile development
+📅 **Week 1: Environment Setup & Basic UI**  
+✅ Set up project repository  
+✅ Configure **Termux / Pydroid3** for mobile development  
+✅ Install dependencies & test basic Python scripts  
+✅ Implement a **basic UI layout** with **Kivy** (home screen, navigation)  
 
-Install dependencies and test basic Python scripts
+📅 **Week 2: Core Data Structures & Database Integration**  
+✅ Design the **database schema** (Worlds, Characters, Locations, etc.)  
+✅ Implement **CRUD operations** using **SQLite**  
+✅ Create an **in-app world creation form**  
 
-Implement a basic UI layout with Kivy (home screen, navigation)
+📅 **Week 3: Implementing World & Entity Management**  
+✅ Develop functionality for **adding/editing/deleting** worlds  
+✅ Implement **character & location management**  
+✅ Set up **data storage & retrieval system**  
 
-Week 2: Core Data Structures & Database Integration
+📅 **Week 4: UI Enhancements & Offline Support**  
+✅ Improve UI layout for a **better mobile experience**  
+✅ Implement **local storage** for **offline usage**  
+✅ Add **user-friendly notifications & feedback messages**  
 
-Design the database schema (Worlds, Characters, Locations, etc.)
+📅 **Week 5: Finalizing MVP & Testing**  
+✅ Conduct **extensive testing** on Android  
+✅ Fix **major bugs & optimize performance**  
+✅ Document MVP & prepare for **next phase**  
 
-Implement basic CRUD operations using SQLite
+---
 
-Create an in-app world creation form
+### 🌍 **Phase 2: Expansion & Cloud Sync (Weeks 6-10)**  
 
-Week 3: Implementing World & Entity Management
+☁️ Implement **cloud storage** with **Firebase**  
+🔐 Add **user authentication & profile management**  
+🎨 Improve **UI/UX** with **animations & better navigation**  
+🤝 Enable **collaboration features & export options**  
 
-Develop functionality for adding/editing/deleting worlds
+---
 
-Implement character and location management
+### 💰 **Phase 3: Monetization & Scaling (Weeks 11+)**  
 
-Create simple data storage and retrieval system
+💳 Develop **monetization model** (subscriptions, one-time purchases, ads)  
+📊 Optimize performance for **larger world databases**  
+🛠️ Launch **beta version** & collect **user feedback**  
+🚀 Prepare for **full release** on **Google Play & App Store**  
 
-Week 4: UI Enhancements & Offline Support
-
-Improve UI layout for a better mobile experience
-
-Implement local storage for offline usage
-
-Add user-friendly notifications and feedback messages
-
-Week 5: Finalizing MVP & Testing
-
-Conduct extensive testing on Android
-
-Fix major bugs and optimize performance
-
-Document MVP version and prepare for next phase
-
-Phase 2: Expansion & Cloud Sync (Weeks 6-10)
-
-Implement cloud storage using Firebase
-
-Add user authentication and profile management
-
-Improve UI/UX with animations and better navigation
-
-Allow collaboration and export options
-
-Phase 3: Monetization & Scaling (Weeks 11+)
-
-Develop a monetization model (subscriptions, one-time purchase, ads)
-
-Optimize performance for larger world databases
-
-Launch beta version and collect user feedback
-
-Prepare for full release on Google Play / App Store
-
+---
 
 ## 🤝 Contributing
 
