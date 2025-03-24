@@ -1,0 +1,15 @@
+<CreateWorldScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        TextInput:
+            id: name_input
+            hint_text: "Enter world name"
+        TextInput:
+            id: description_input
+            hint_text: "Enter description"
+        Button:
+            text: "Save"
+            on_press: root.save_world()
+        Button:
+            text: "Back"
+            on_press: root.manager.current = "home"
