@@ -1,19 +1,18 @@
-from kivy.app import App
-from kivy.uix.screenmanager import ScreenManager, Screen
-from worldbuilder.world_manager import WorldManager
+# main.py
+from kivymd.app import MDApp
+from kivymd.uix.screenmanager import MDScreenManager
+from app.screens.import_screen import ImportScreen
+from app.screens.quote_preview_screen import QuotePreviewScreen
 
-class HomeScreen(Screen):
-    pass
-
-class CreateWorldScreen(Screen):
-    pass
-
-class RaevynApp(App):
+class EbookSocialShareApp(MDApp):
     def build(self):
-        sm = ScreenManager()
-        sm.add_widget(HomeScreen(name='home'))
-        sm.add_widget(CreateWorldScreen(name='create_world'))
+        self.theme_cls.primary_palette = "Indigo"
+        self.theme_cls.theme_style = "Light"
+
+        sm = MDScreenManager()
+        sm.add_widget(ImportScreen(name='import'))
+        sm.add_widget(QuotePreviewScreen(name='preview'))
         return sm
 
 if __name__ == '__main__':
-    raevynApp().run()
+    EbookSocialShareApp().run()
