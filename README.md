@@ -21,7 +21,7 @@ A minimalist KivyMD app that lets you **import eBook text**, automatically **ext
 
 ## Screenshots
 
-> _Coming soon: We'll add demo GIFs and screenshots here._
+> _Coming soon: I'll add demo GIFs and screenshots here._
 
 ---
 
@@ -55,25 +55,32 @@ $ python main.py
 
 ## Project Structure
 
-```
-.
+ebook_social_share/
 ├── main.py
 ├── app/
+│   ├── __init__.py
 │   ├── screens/
 │   │   ├── import_screen.py
-│   │   └── quote_preview_screen.py
-│   └── utils/
-│       ├── parser.py
-│       └── formatter.py
-└── README.md
-```
+│   │   ├── quote_preview_screen.py
+│   │   ├── image_generator.py
+│   ├── utils/
+│   │   ├── parser.py         # EPUB/TXT parsing
+│   │   ├── formatter.py      # Quote extraction & trimming
+│   │   ├── image_utils.py    # Quote card generator using Pillow
+│   │   ├── hashtags.py       # Genre/theme-based hashtag generation
+├── assets/
+│   ├── fonts/
+│   ├── images/
+├── README.md
+├── requirements.txt
+
 
 ---
 
 ## Future Plans
 
 - [ ] Export quotes as styled images
-- [ ] Add support for EPUB
+- [ ] Add support for EPUB, Docx, and PDF
 - [ ] Social sharing buttons (Twitter, Instagram)
 - [ ] Custom themes & quote filters
 
